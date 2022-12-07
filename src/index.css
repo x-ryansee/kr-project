@@ -163,3 +163,8 @@ button.Play {
   border-radius:10px;
   display:block;
 }
+
+nav a.active{
+  background-color:black;
+  color: white;
+}
