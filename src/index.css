@@ -164,7 +164,7 @@ button.Play {
   display:block;
 }
 
-h3 {
+h5 {
   color:rgb(10, 0, 0);
   font-size: 70px;
   text-align: center;
@@ -173,7 +173,7 @@ h3 {
   bottom:-10px;
 
 }
-h4 {
+h6{
   color:white;
   font-size: 75px;
   text-align: center;
@@ -182,20 +182,20 @@ h4 {
   bottom:-30px;
 }
 
-p{
+p1{
   font-size: 20px;
   text-align: left;
   margin: 0px auto;
   position:relative;
   bottom:-49px;
 }
-p1{
+p2{
   
   font-size: 23px;
   margin: 0px auto;
   position:relative;
   bottom:-90px;
-  right:-360px;
+  right:-120px;
 
 }
 
