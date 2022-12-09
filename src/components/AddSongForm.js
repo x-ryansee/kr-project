@@ -40,7 +40,7 @@ function handlePost(e) {
                   <input  onChange={handleChange} value={songData.songURL} type="text" name="songURL" placeholder="video URL" />
                   <input  onChange={handleChange} value={songData.genre} type="text" name="genre" placeholder="study or party" />
                 </div>
-                <button style={{color:'black'}} className="ui button" type="submit">
+                <button style={{color:'black'}}  className="ui button" type="submit">
                   Add Song
                 </button>
               </form>
