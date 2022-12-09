@@ -103,8 +103,7 @@
       "image": "https://www.yourmusicradar.com/wp-content/uploads/2018/11/93.png",
       "genre": "Party",
       "songURL": "https://www.youtube.com/embed/u5kP_nfFVt4"
-    }
-    ,
+    },
     {
       "id": 14,
       "artist": "Synthwave Goose",
@@ -112,6 +111,14 @@
       "image": "https://i.scdn.co/image/ab67616d0000b273fb336c30993782be805f415b",
       "genre": "Study",
       "songURL": "https://www.youtube.com/embed/_gYjh863j4g"
+    },
+    {
+      "id": 15,
+      "artist": "Oliver Tree & Whethan",
+      "title": "Enemy",
+      "image": "https://images.genius.com/9e28db2df9c6a5f7ffbd4587c8baa3bc.1000x1000x1.png",
+      "genre": "Party",
+      "songURL": "https://www.youtube.com/embed/oKUVlXlcBQs"
     }
   ]
 }
