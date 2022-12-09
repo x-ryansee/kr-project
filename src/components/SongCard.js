@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import SongList from "./SongList";
+// import SongList from "./SongList";
 
 function SongCard({id, title, artist, image, songURL, Link}) {
 
