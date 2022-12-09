@@ -3,7 +3,7 @@ import SongList from "../SongList";
 import Search from "../Search";
 const API="http://localhost:3000/songs"
 
-function PartyMusic() {
+function PartyMusic({genre}) {
     const [songs,setSongs]=useState ([])
     const [search, setSearch] = useState('')
   
@@ -17,11 +17,11 @@ function PartyMusic() {
       return song.title.toLowerCase().includes(search.toLowerCase());
     })
   
-    const onlyPartySongs = songs.filter(song => song.genre == 'Party')
+    const onlyPartySongs = songs.filter(song => song.genre == genre)
 
     return (
       <main>
-        <h1 style={{color: "#6dd47e"}}>Party✨</h1>
+        <h1 style={{color: "#6dd47e"}}>{genre}✨</h1>
         <Search search ={search} setSearch={setSearch}/>
         <SongList songs={onlyPartySongs}/>
       </main>

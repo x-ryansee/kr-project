@@ -11,14 +11,15 @@ import SongCard from "./SongCard";
 
 
 function App() {
+
     return (
         <div className="app">
             <Switch>
                 <Route path="/studyMusic">
-                    <StudyMusic/>
+                    <PartyMusic genre={"Study"}/>
                 </Route>
                 <Route path="/partyMusic">
-                    <PartyMusic/>
+                    <PartyMusic genre={"Party"}/>
                 </Route>
                 <Route exact path="/">
                     <Home />
