@@ -79,6 +79,39 @@
       "image": "https://i.scdn.co/image/ab6761610000e5eb50defaf9fc059a1efc541f4c",
       "genre": "Party",
       "songURL": "https://www.youtube.com/embed/1w7OgIMMRc4"
+    },
+    {
+      "id": 11,
+      "artist": "Sitting, Waiting, Wishing",
+      "title": "Jack Johnson",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/74/InBetweenDreams.jpg",
+      "genre": "Study",
+      "songURL": "https://www.youtube.com/embed/Erpv9L7696U"
+    },
+    {
+      "id": 12,
+      "artist": "Palace",
+      "title": "Live Well",
+      "image": "https://lastfm.freetls.fastly.net/i/u/ar0/0c0640e3fc8fdc86f369b18d7c43c2d4",
+      "genre": "Study",
+      "songURL": "https://www.youtube.com/embed/f6noiVByjzM"
+    },
+    {
+      "id": 13,
+      "artist": "Louis The Child",
+      "title": "Better Not",
+      "image": "https://www.yourmusicradar.com/wp-content/uploads/2018/11/93.png",
+      "genre": "Party",
+      "songURL": "https://www.youtube.com/embed/u5kP_nfFVt4"
+    }
+    ,
+    {
+      "id": 14,
+      "artist": "Synthwave Goose",
+      "title": "Blade Runner 2049",
+      "image": "https://i.scdn.co/image/ab67616d0000b273fb336c30993782be805f415b",
+      "genre": "Study",
+      "songURL": "https://www.youtube.com/embed/_gYjh863j4g"
     }
   ]
 }
