@@ -22,7 +22,7 @@ function StudyMusic() {
   
     return (
       <main>
-        <h1  style={{color: "red"}}>Study💡</h1>
+        <h1  style={{color: "#fbeaeb"}}>Study💡</h1>
         <Search search ={search} setSearch={setSearch}/>
         <SongList songs={onlyStudySongs}/>
       </main>

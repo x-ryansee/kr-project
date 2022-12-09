@@ -12,12 +12,12 @@ function Header() {
             <div>
                 <Route to="/studymusic">
                     <Link to="/studymusic">
-                        <h1 style={{color: "red"}} id="/studymusic" onClick={handleClick}>Study</h1>
+                        <h1 style={{color: "#fbeaeb"}} id="/studymusic" onClick={handleClick}>Study</h1>
                     </Link>
                 </Route>
                 <Route to="/partymusic">
                     <Link to="/partymusic">
-                        <h1 style={{color: "blue"}} id="/partymusic" onClick={handleClick}>Party</h1>
+                        <h1 style={{color: "#6dd47e"}} id="/partymusic" onClick={handleClick}>Party</h1>
                     </Link>
                 </Route>
             </div>
