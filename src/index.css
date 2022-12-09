@@ -258,11 +258,19 @@ p{
   font-size: 17px;
 }
 p2{
-  font-size: 25px;
+  font-size: 22px;
   margin: 0px auto;
   position:relative;
-  bottom:-460px;
+  bottom:-70px;
   left: -10px;
+}
+
+p3{
+  font-size: 35px;
+  text-align: left;
+  position: relative;
+  top:320px;
+ 
 }
 .button{
   color: rgb(255, 255, 255);
