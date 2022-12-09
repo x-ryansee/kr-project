@@ -21,7 +21,7 @@ function PartyMusic() {
 
     return (
       <main>
-        <h1 style={{color: "blue"}}>Party✨</h1>
+        <h1 style={{color: "#6dd47e"}}>Party✨</h1>
         <Search search ={search} setSearch={setSearch}/>
         <SongList songs={onlyPartySongs}/>
       </main>
