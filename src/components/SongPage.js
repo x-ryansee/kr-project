@@ -24,9 +24,9 @@ function SongPage() {
 
   return (
     <main>
+      <AddSongForm newSong={newSong}/>
       <Search search ={search} setSearch={setSearch}/>
       <SongList songs={displayedSongs}/>
-      <AddSongForm newSong={newSong}/>
     </main>
   );
 }
