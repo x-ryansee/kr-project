@@ -60,7 +60,9 @@ button {
   font-family: inherit;
   border: none;
   cursor: pointer;
+
 }
+
 .navigation{
   position: relative;
   text-align: left;
@@ -192,13 +194,13 @@ input:focus {
   }
 }
 
-button.Play {
+/* button.Play {
   position:relative;
   right:-87px;
   border: 3px solid #ffffff;
   border-radius:10px;
   display:block;
-}
+} */
 
 /* <<<<<<< HEAD */
 .navigation {
@@ -216,6 +218,9 @@ root{
 
 h1{
   font-size: 60px;
+}
+h4{
+  font-size: 20px;
 }
 h5 {
   color:rgb(10, 0, 0);
@@ -249,7 +254,9 @@ text-decoration: none;
   text-align: left;
   
 }
-
+p{
+  font-size: 17px;
+}
 p2{
   font-size: 25px;
   margin: 0px auto;
@@ -264,5 +271,7 @@ p2{
   padding: 10px 50px 20px;
 
 }
+
+
  /* >>>>>>> b962441d1a152d3cec4017a9ce12b3cf3fbf9134 */
 

@@ -38,7 +38,7 @@ function handlePost(e) {
                   <input  onChange={handleChange} value={songData.image} type="text" name="image" placeholder="image" />
                   <input  onChange={handleChange} value={songData.songURL} type="text" name="songURL" placeholder="video URL" />
                 </div>
-                <button className="ui button" type="submit">
+                <button style={{color:'black'}} className="ui button" type="submit">
                   Add Song
                 </button>
               </form>
