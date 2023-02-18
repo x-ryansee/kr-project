@@ -17,13 +17,14 @@ function PartyMusic({genre}) {
       return song.title.toLowerCase().includes(search.toLowerCase());
     })
   
-    const onlyPartySongs = songs.filter(song => song.genre == genre)
+    const onlyPartySongs = songs.filter((song) => song.genre === genre)
 
     return (
       <main>
         <h1 style={{color: "#6dd47e"}}>{genre}✨</h1>
         <Search search ={search} setSearch={setSearch}/>
-        <SongList songs={onlyPartySongs}/>
+        <SongList songs={onlyPartySongs} />
+
       </main>
     );
   }

@@ -15,16 +15,21 @@ function StudyMusic() {
   
     const displayedSongs = songs.filter((song) => {
       return song.title.toLowerCase().includes(search.toLowerCase());
+
     })
+console.log(displayedSongs)
 
-
-    const onlyStudySongs = songs.filter(song => song.genre == 'Study')
+  
+  const onlyStudySongs = songs.filter(song => song.genre === 'Study')
+  // console.log(onlyStudySongs)
+    
+    
   
     return (
       <main>
         <h1  style={{color: "#fbeaeb"}}>Study💡</h1>
-        <Search search ={search} setSearch={setSearch}/>
-        <SongList songs={onlyStudySongs}/>
+        <Search search ={search} setSearch={setSearch} />
+        <SongList songs={onlyStudySongs} />
       </main>
     );
   }
